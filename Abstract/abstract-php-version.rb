@@ -22,41 +22,35 @@ class AbstractPhpVersion < Formula
   end
 
   module Php54Defs
-    PHP_SRC_TARBALL = 'https://php.net/get/php-5.4.43.tar.bz2/from/this/mirror'
+    PHP_SRC_TARBALL = 'https://php.net/get/php-5.4.44.tar.bz2/from/this/mirror'
     PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
-    PHP_VERSION     = '5.4.43'
+    PHP_VERSION     = '5.4.44'
     PHP_BRANCH      = 'PHP-5.4'
 
     PHP_CHECKSUM    = {
-                        :md5    => 'eedfa86393db2ae49a163d1f80aa2c19',
-                        :sha1   => '2370ff60be9e058c94665e1b04ead80d23c37f1e',
-                        :sha256 => '25d7724fb00ad1b520f5bad2173717031153d0a8e3de2c75e7a084c76f8ecd6b',
+                        :sha256 => '8dd59e5ce9248cf36ac3de5412a518b8b24c01ace6c46ce3d12e4ce981a3856d',
                       }
   end
 
   module Php55Defs
-    PHP_SRC_TARBALL = 'https://php.net/get/php-5.5.27.tar.bz2/from/this/mirror'
+    PHP_SRC_TARBALL = 'https://php.net/get/php-5.5.28.tar.xz/from/this/mirror'
     PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
-    PHP_VERSION     = '5.5.27'
+    PHP_VERSION     = '5.5.28'
     PHP_BRANCH      = 'PHP-5.5'
 
     PHP_CHECKSUM    = {
-                        :md5    => 'e105f664450efd87513f5b4a2055e917',
-                        :sha1   => '1bb65c8e66324e16eef5464b0e0fcb5a7378b9ac',
-                        :sha256 => 'c4b4c6a534c0ca67a9ae39bec4f51e52d13e820135dd016eae230e15337e1f70',
+                        :sha256 => 'd060455c804c622cda9f3f5f084b10c6ceba73ee76c1720897e17137a0f75ecd',
                       }
   end
 
   module Php56Defs
-    PHP_SRC_TARBALL = 'https://php.net/get/php-5.6.11.tar.bz2/from/this/mirror'
+    PHP_SRC_TARBALL = 'https://php.net/get/php-5.6.12.tar.xz/from/this/mirror'
     PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
-    PHP_VERSION     = '5.6.11'
+    PHP_VERSION     = '5.6.12'
     PHP_BRANCH      = 'PHP-5.6'
 
     PHP_CHECKSUM    = {
-                        :md5    => 'a0c842c1d30fedbe972e1556ae9cee27',
-                        :sha1   => '513bbde88a8b8270b2bff357d41c4f1c42e51fcd',
-                        :sha256 => 'bd6b260816764c267244749ead07482120dbf8d1920ebbbb0dcb2aa411033866',
+                        :sha256 => 'f8a8446866c0dc3f33319aa196ce87b64d71cab3dd96e39c8816adccc7e8ef33',
                       }
   end
 
